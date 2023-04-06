@@ -1,0 +1,8 @@
+tmp/*
+*.log
+*.so
+*.o
+*.swp
+*.swn
+*.swo
+.DS_Store
