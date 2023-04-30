@@ -6,3 +6,4 @@ tmp/*
 *.swn
 *.swo
 .DS_Store
+lazy-lock.json
