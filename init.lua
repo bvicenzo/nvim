@@ -17,10 +17,10 @@ vim.opt.rtp:prepend(lazypath)
 
 
 -- Lazy load plugins
+vim.g.mapleader = ","           -- change the <leader> to comma(,) need to be before load plugins using Lazy.
 require("lazy").setup("plugins")
 
 -- Vim custom options
-vim.g.mapleader = ","           -- change the <leader> to comma(,)
 vim.keymap.set('n', ';', ':')   -- don't need to press the shift key :
 
 vim.o.number = true       -- show line numbers
