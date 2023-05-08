@@ -47,3 +47,18 @@ Set as ` , `
 ## Filetypes
 
 The unkown filetypes can be defined the type in [nvim/filetype.lua](https://github.com/bvicenzo/nvim/blob/master/filetype.lua).
+
+## Plugins
+
+<details>
+ <summary>[Mini](https://github.com/echasnovski/mini.nvim)</summary>
+  Library of 20+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort. They all share same configuration approaches and general design principles.
+  Installed modules:
+  - [Animate](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-animate.md): Animate common Neovim actions;
+  - [Completion](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-completion.md): Completion and signature help;
+  - [Pairs](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-pairs.md): Allows automatic close opened chars, as (, [, and etc;
+  - [Comment](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-comment.md) Allows comment code using shortcuts;
+  - [Intendscope](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-indentscope.md): Visualize and work with indent scope;
+  - [Splitjoin](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-splitjoin.md): Split and join arguments;
+  - [Cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md): Automatic highlighting of word under cursor;
+</details>

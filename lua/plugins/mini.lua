@@ -19,10 +19,19 @@ return { -- https://github.com/echasnovski/mini.nvim
       },
     })
     require("mini.pairs").setup()
-    require("mini.surround").setup() -- https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-surround.md
-    require("mini.comment").setup()
+    require("mini.surround").setup({ -- https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-surround.md
+      -- Open and close these brakets without adding spaces: https://github.com/echasnovski/mini.nvim/issues/128#issuecomment-1242763766
+      custom_surroundings = {
+        ['('] = { input = { '%b()', '^.().*().$' }, output = { left = '(', right = ')' } },
+        ['['] = { input = { '%b[]', '^.().*().$' }, output = { left = '[', right = ']' } },
+        ['{'] = { input = { '%b{}', '^.().*().$' }, output = { left = '{', right = '}' } },
+        ['<'] = { input = { '%b<>', '^.().*().$' }, output = { left = '<', right = '>' } },
+      },
+    })
+    require("mini.comment").setup() -- Need more understanding
     require("mini.indentscope").setup({
       symbol = '¦'
     })
+    require('mini.splitjoin').setup()
   end
 }
