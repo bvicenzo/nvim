@@ -28,6 +28,7 @@ vim.o.ruler = true        -- hightline the number of current line
 vim.o.cursorcolumn = false -- highlight the current column
 vim.o.cursorline = true   -- highlight the current line
 vim.o.termguicolors = true
+vim.o.wrap = false -- Do not wrap lines
 
 -- Set fold method
 vim.cmd("set foldenable")
