@@ -1,8 +1,26 @@
 -- Author: Bruno Vicenzo
 -- Source: https://github.com/bvicenzo/nvim.git
 
+-- Lazy - Package manager
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
+
+
+-- Lazy load plugins
+vim.g.mapleader = ","           -- change the <leader> to comma(,) need to be before load plugins using Lazy.
+require("lazy").setup("plugins")
+
 -- Vim custom options
-vim.g.mapleader = ","           -- change the <leader> to comma(,)
 vim.keymap.set('n', ';', ':')   -- don't need to press the shift key :
 
 vim.o.number = true       -- show line numbers
@@ -10,6 +28,7 @@ vim.o.ruler = true        -- hightline the number of current line
 vim.o.cursorcolumn = false -- highlight the current column
 vim.o.cursorline = true   -- highlight the current line
 vim.o.termguicolors = true
+vim.o.wrap = false -- Do not wrap lines
 
 -- Set fold method
 vim.cmd("set foldenable")
