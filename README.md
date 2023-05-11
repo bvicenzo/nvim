@@ -51,7 +51,8 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 ## Plugins
 
 <details>
- <summary>[Mini](https://github.com/echasnovski/mini.nvim)</summary>
+ <summary>Mini</summary>
+  Plugin page [here](https://github.com/echasnovski/mini.nvim).
   Library of 20+ independent Lua modules improving overall Neovim (version 0.7 and higher) experience with minimal effort. They all share same configuration approaches and general design principles.
   Installed modules:
   - [Animate](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-animate.md): Animate common Neovim actions;
@@ -61,4 +62,9 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   - [Intendscope](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-indentscope.md): Visualize and work with indent scope;
   - [Splitjoin](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-splitjoin.md): Split and join arguments;
   - [Cursorword](https://github.com/echasnovski/mini.nvim/blob/main/readmes/mini-cursorword.md): Automatic highlighting of word under cursor;
+</details>
+<details>
+ <summary>Dracula</summary>
+  Plugin page [here](https://github.com/Mofiqul/dracula.nvim).
+  Plugin to add [Dracula theme](https://draculatheme.com/) to Nvim.
 </details>
