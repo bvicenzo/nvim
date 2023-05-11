@@ -81,8 +81,10 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 <details>
  <summary>Neo tree</summary>
   Plugin page [here](https://github.com/nvim-neo-tree/neo-tree.nvim).
-  Plugin to add a current folder subtree.
+ 
+ Plugin to add a current folder subtree.
   Main commands:
+
   - `<leader>nt`: Open/Close;
   - `<leader>r`: Open with current file selected;
   - `<leader>ew`: Open in a floating window;
