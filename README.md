@@ -68,3 +68,13 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   Plugin page [here](https://github.com/Mofiqul/dracula.nvim).
   Plugin to add [Dracula theme](https://draculatheme.com/) to Nvim.
 </details>
+<details>
+ <summary>Dev icons</summary>
+  Plugin page [here](https://github.com/nvim-tree/nvim-web-devicons).
+  Plugin to add dev icons as filetypes and etc to Nvim.
+</details>
+<details>
+ <summary>Lualine</summary>
+  Plugin page [here](https://github.com/nvim-lualine/lualine.nvim).
+  Plugin to add a status line integrated with devicons.
+</details>
