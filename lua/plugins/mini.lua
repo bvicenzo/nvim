@@ -29,6 +29,13 @@ return { -- https://github.com/echasnovski/mini.nvim
       },
     })
     require("mini.comment").setup() -- Need more understanding
+    -- Disable indentscope for some kind of buffers
+    vim.api.nvim_create_autocmd("FileType", {
+      pattern = { "help", "alpha", "dashboard", "neo-tree", "Trouble", "lazy", "mason", "terminal", "quickfix" },
+      callback = function()
+        vim.b.miniindentscope_disable = true
+      end,
+    })
     require("mini.indentscope").setup({
       symbol = '¦'
     })

@@ -78,3 +78,16 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   Plugin page [here](https://github.com/nvim-lualine/lualine.nvim).
   Plugin to add a status line integrated with devicons.
 </details>
+<details>
+ <summary>Neo tree</summary>
+  Plugin page [here](https://github.com/nvim-neo-tree/neo-tree.nvim).
+ 
+ Plugin to add a current folder subtree.
+  Main commands:
+
+  - `<leader>nt`: Open/Close;
+  - `<leader>r`: Open with current file selected;
+  - `<leader>ew`: Open in a floating window;
+  - `shift+>`: Move file/buffers/git tabs for right;
+  - `shift+<`: Move file/buffers/git tabs for left;
+</details>
