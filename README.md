@@ -86,10 +86,13 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   Main commands:
 
   - `<leader>nt`: Open/Close;
+  - `<leader>be`: Open tree in buffers tab;
+  - `<leader>ng`: Open tree in git tab;
   - `<leader>r`: Open with current file selected;
   - `<leader>ew`: Open in a floating window;
   - `shift+>`: Move file/buffers/git tabs for right;
   - `shift+<`: Move file/buffers/git tabs for left;
+  - `bd`: To close a file in buffer tab, `bd` closes the highlighted file.
 </details>
 <details>
  <summary>Git signs</summary>
