@@ -1,5 +1,5 @@
 
-return { -- https://github.com/echasnovski/mini.nvim
+return {
   "Mofiqul/dracula.nvim", version = '*',
   config = function()
     require("dracula").setup({
