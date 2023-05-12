@@ -105,5 +105,9 @@ return { -- Files Tree
     vim.keymap.set('n', '<leader>nt', ':NeoTreeRevealToggle<CR>')
     vim.keymap.set('n', '<leader>r', ':NeoTreeFocusToggle<CR>')
     vim.keymap.set('n', '<leader>ew', ':NeoTreeFloatToggle<CR>')
+    -- Open neotree directly in buffer souce and git
+    -- on these instructions: https://github.com/nvim-neo-tree/neo-tree.nvim#the-neotree-command
+    vim.keymap.set('n', '<leader>be', ':Neotree source=buffers<CR>')
+    vim.keymap.set('n', '<leader>ng', ':Neotree source=git_status<CR>')
   end
 }
