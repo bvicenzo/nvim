@@ -119,3 +119,13 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 
  Plugin to auto remove trail whitespaces.
 </details>
+<details>
+ <summary>Snippy</summary>
+  Plugin page [here](https://github.com/dcampos/nvim-snippy).
+
+ Plugin to add and use code snippets.
+  Main commands:
+
+  - `<Tab>`: Navigate to snippets suggestions;
+  - `<S-Tab>`: Navigate back to snippets suggestions.
+</details>
