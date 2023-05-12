@@ -103,3 +103,13 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   - `<leader>hd`: Show git diff on file;
   - `<leader>hp`: Show git diff for current change;
 </details>
+<details>
+ <summary>Git linker</summary>
+  Plugin page [here](https://github.com/ruifm/gitlinker.nvim).
+ 
+ Plugin to generate link and access files on sources as github and gitlab.
+  Main commands:
+
+  - `<leader>gy`: Generate link and copy to clipboard;
+  - `<leader>of`: Generate link and open in default browser;
+</details>
