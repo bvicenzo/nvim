@@ -81,7 +81,7 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 <details>
  <summary>Neo tree</summary>
   Plugin page [here](https://github.com/nvim-neo-tree/neo-tree.nvim).
- 
+
  Plugin to add a current folder subtree.
   Main commands:
 
@@ -94,7 +94,7 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 <details>
  <summary>Git signs</summary>
   Plugin page [here](https://github.com/lewis6991/gitsigns.nvim).
- 
+
  Plugin to help to work on git functions.
   Main commands:
 
@@ -106,10 +106,16 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 <details>
  <summary>Git linker</summary>
   Plugin page [here](https://github.com/ruifm/gitlinker.nvim).
- 
+
  Plugin to generate link and access files on sources as github and gitlab.
   Main commands:
 
   - `<leader>gy`: Generate link and copy to clipboard;
   - `<leader>of`: Generate link and open in default browser;
+</details>
+<details>
+ <summary>Tidy</summary>
+  Plugin page [here](https://github.com/mcauley-penney/tidy.nvim).
+
+ Plugin to auto remove trail whitespaces.
 </details>
