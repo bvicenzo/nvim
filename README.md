@@ -91,3 +91,15 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   - `shift+>`: Move file/buffers/git tabs for right;
   - `shift+<`: Move file/buffers/git tabs for left;
 </details>
+<details>
+ <summary>Git signs</summary>
+  Plugin page [here](https://github.com/lewis6991/gitsigns.nvim).
+ 
+ Plugin to help to work on git functions.
+  Main commands:
+
+  - `<leader>tb`: Show/Hide gitblame on current line;
+  - `<leader>hb`: Show the full commit message;
+  - `<leader>hd`: Show git diff on file;
+  - `<leader>hp`: Show git diff for current change;
+</details>
