@@ -132,3 +132,7 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
   - `<Tab>`: Navigate to snippets suggestions;
   - `<S-Tab>`: Navigate back to snippets suggestions.
 </details>
+<details>
+ <summary>Scrollbar</summary>
+  Plugin page [here](https://github.com/petertriho/nvim-scrollbar).
+</details>
