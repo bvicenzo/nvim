@@ -1,7 +1,6 @@
 return { -- https://github.com/echasnovski/mini.nvim
   "echasnovski/mini.nvim", version = '*',
   config = function()
-    require("mini.animate").setup()
     require("mini.completion").setup()
     require("mini.move").setup({
       mappings = {
