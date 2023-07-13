@@ -22,6 +22,7 @@ require("lazy").setup("plugins")
 
 -- Vim custom options
 vim.keymap.set('n', ';', ':')   -- don't need to press the shift key :
+vim.cmd("set background=dark")
 
 vim.o.number = true       -- show line numbers
 vim.o.ruler = true        -- hightline the number of current line

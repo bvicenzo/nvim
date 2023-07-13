@@ -6,6 +6,15 @@ Using CTAGS, it's optional to install:
 
 ```sh
 sudo apt install -y universal-ctags
+gem install --user-install solargraph solargraph-rails
+```
+
+## Install
+
+After install, open Nvim and run:
+
+```
+:TSInstall ruby python json bash php html javascript rust css markdown markdown_inline regex
 ```
 
 ## Configs
@@ -135,4 +144,8 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
 <details>
  <summary>Scrollbar</summary>
   Plugin page [here](https://github.com/petertriho/nvim-scrollbar).
+</details>
+<details>
+ <summary>Rails</summary>
+  Plugin page [here](https://github.com/tpope/vim-rails).
 </details>
