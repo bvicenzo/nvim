@@ -105,3 +105,11 @@ vim.keymap.set("n", "<leader>jt", "<ESC>:%!ruby -rjson -e \"print JSON.pretty_ge
 -- Buffer
 vim.keymap.set("n", "<leader>bd", '<ESC>:bw<CR>') -- Closes current buffer
 vim.keymap.set("n", "<leader>l", '<ESC>:e#<CR>') -- Goes to last opened buffer
+
+local lsp = require('lsp-zero').preset({})
+
+lsp.on_attach(function(client, bufnr)
+  lsp.default_keymaps({buffer = bufnr})
+end)
+
+lsp.setup()
