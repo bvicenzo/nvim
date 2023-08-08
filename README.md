@@ -149,3 +149,7 @@ The unkown filetypes can be defined the type in [nvim/filetype.lua](https://gith
  <summary>Rails</summary>
   Plugin page [here](https://github.com/tpope/vim-rails).
 </details>
+<details>
+ <summary>LSP Zero</summary>
+  Plugin page [here](https://github.com/tpope/VonHeikemen/lsp-zero.nvim).
+</details>

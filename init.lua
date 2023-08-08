@@ -33,7 +33,7 @@ vim.o.wrap = false -- Do not wrap lines
 
 -- Set fold method
 vim.cmd("set foldenable")
-vim.cmd("set foldlevelstart=3")
+vim.cmd("set foldlevelstart=99")
 vim.cmd("set foldmethod=expr")
 vim.cmd("set foldexpr=nvim_treesitter#foldexpr()")
 
@@ -105,3 +105,11 @@ vim.keymap.set("n", "<leader>jt", "<ESC>:%!ruby -rjson -e \"print JSON.pretty_ge
 -- Buffer
 vim.keymap.set("n", "<leader>bd", '<ESC>:bw<CR>') -- Closes current buffer
 vim.keymap.set("n", "<leader>l", '<ESC>:e#<CR>') -- Goes to last opened buffer
+
+local lsp = require('lsp-zero').preset({})
+
+lsp.on_attach(function(client, bufnr)
+  lsp.default_keymaps({buffer = bufnr})
+end)
+
+lsp.setup()
