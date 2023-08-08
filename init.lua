@@ -33,7 +33,7 @@ vim.o.wrap = false -- Do not wrap lines
 
 -- Set fold method
 vim.cmd("set foldenable")
-vim.cmd("set foldlevelstart=3")
+vim.cmd("set foldlevelstart=99")
 vim.cmd("set foldmethod=expr")
 vim.cmd("set foldexpr=nvim_treesitter#foldexpr()")
 
